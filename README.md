@@ -33,7 +33,7 @@ torch torchvision fastapi uvicorn matplotlib python-multipart streamlit<br>
 
 # For Training (optional): <br>
 - The training code is provided in the image_classification.ipynb <br>
-- On running this file the dataset will be installed in the image_classification, also the trained model will be saved in a new directory named models in the image_classification as well.<br>
+- On running this file the dataset will be installed in the image_classification folder, also the trained model will be saved in a new directory named models in the image_classification folder as well.<br>
 - In order to use the trained_model.pt, please edit the model_path variable in inference.py mentioned here <br>
 _model_path = os.path.join( main_folder, 'best_model.pt' )_
 
@@ -73,7 +73,7 @@ Run the FastAPI from your terminal<br>
 ```uvicorn app:app --reload```<br>
 
 - Open another instance of command prompt (windows) and terminal (linux and MacOS)
-- enter the main_folder by changing directory appropriately.<br>
+- enter the image_classification folder by changing directory appropriately.<br>
 - Now activate the virtual environment using <br>
 ```image_classification\Scripts\activate``` (Windows)<br>
 ```source image_classification/bin/activate``` (MacOS, linux)<br>
